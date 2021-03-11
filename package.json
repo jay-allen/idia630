@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run watch:eleventy & npm run watch:styles",
+    "build": "eleventy & npm run styles",
     "test": "echo \"Error: no test specified\" && exit 1",
     "styles": "sass --style=compressed ./src/assets/styles/src/:./dist/assets/styles/",
     "watch:styles": "sass --watch --style=compressed ./src/assets/styles/src/:./dist/assets/styles/",

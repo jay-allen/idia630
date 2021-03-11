@@ -1,0 +1,11 @@
+@use '../variables' as *;
+
+
+.associated-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.associated-block > * {
+    margin: 0;
+}

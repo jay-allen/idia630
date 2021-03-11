@@ -1,0 +1,21 @@
+{
+  "name": "web-dev-day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch:eleventy & npm run watch:styles",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "sass --style=compressed ./src/assets/styles/src/:./dist/assets/styles/",
+    "watch:styles": "sass --watch --style=compressed ./src/assets/styles/src/:./dist/assets/styles/",
+    "watch:eleventy": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "modern-css-reset": "^1.4.0",
+    "sass": "^1.26.5"
+  }
+}

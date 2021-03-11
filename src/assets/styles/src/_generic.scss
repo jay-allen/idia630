@@ -1,0 +1,28 @@
+@use 'variables' as *;
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    background-color: $grey-0;
+
+    @media (min-width: 800px) {
+        font-size: 125%;
+    }
+}
+
+header {
+    padding: 1em 0;
+}
+
+footer {
+    background-color: $grey-4;
+    color: $text-light-1;
+    padding: 2em 0;
+    margin-top: 3em;
+}
+
+img {
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+}

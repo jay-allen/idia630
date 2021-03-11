@@ -1,0 +1,15 @@
+@use '../variables' as *;
+
+.logo {
+    font-size: 2rem;
+    width: 100%;
+    // text-align: center;
+    // @media (min-width: 800px) {
+    //     text-align: left;
+    // }
+
+    & a {
+        text-decoration: none;
+        color: $text-dark-1;
+    }
+}

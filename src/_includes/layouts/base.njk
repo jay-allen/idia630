@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/assets/styles/main.css">
+    
+  </head>
+
+  <body>
+        <header>
+            <div class="container">
+                <div class="nav-utility">
+                    <span class="logo">
+                        <a href="/">VHA UX Guide</a>
+                    </span>
+                    <span class="search">
+                        <label for="search">Search</label>
+                        <input id="search" type="search">
+                    </span>
+                </div>
+                <nav class="nav-main">
+                    <ul>
+                        <li><a href="/ux-process">Introduction to UX Concepts</a></li>
+                        <li><a href="/ux-process">UX Process</a></li>
+                        <li><a href="/ux-process">Resources</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            {{ content | safe }}
+        </main>
+        <footer>
+            <div class="container">Looking for more information? Contact us</div>
+        </footer>
+</body>
+</html>

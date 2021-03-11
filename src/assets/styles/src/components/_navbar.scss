@@ -1,0 +1,40 @@
+@use '../variables' as *;
+
+.nav-utility {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // flex-direction: column;
+
+    // @media (min-width: 800px) {
+    //     flex-direction: row;
+    // }
+}
+
+
+.nav-main {
+
+}
+
+.nav-main > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-main li {
+    display: block;
+    // padding: 1rem;
+    margin-right: 1.5rem;
+    @media (min-width: 800px) {
+        display: inline-block;
+    }
+}
+
+.nav-main a {
+    text-decoration: none;
+    color: $grey-4;
+    padding: .5rem 0;
+    display: block;
+    font-size: 1.2rem;
+}
+

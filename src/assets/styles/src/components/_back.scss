@@ -1,0 +1,29 @@
+@use '../variables' as *;
+
+.back {
+    padding: 1rem 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.back::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 3px;
+    width: 7px;
+    height: 7px;
+    margin: auto 0;
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
+    border: solid;
+    border-width: 2px 2px 0 0;
+    border-color: $grey-5;
+
+}

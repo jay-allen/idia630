@@ -19,5 +19,8 @@
     "@11ty/eleventy": "^0.10.0",
     "modern-css-reset": "^1.4.0",
     "sass": "^1.26.5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3"
   }
 }

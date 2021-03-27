@@ -48,3 +48,15 @@ img {
     margin: auto;
     max-width: 100%;
 }
+
+.icon-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: $text-dark-1;
+
+    img {
+        max-width: 25px;
+        margin-right: .5rem;
+    }
+}

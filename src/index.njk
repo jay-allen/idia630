@@ -8,23 +8,13 @@ layout: layouts/base.njk
 </div>
 
 <div class="container">
-    
-    <div class="section">
-        <h2>Introduction to UX Concepts</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
-        <a class="cta" href="/ux-process">Call to action</a>
-    </div>
-    
-    <div class="section">
-        <h2>UX Process</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
-        <a class="cta" href="/ux-process">Call to action</a>
-    </div>
-    
-    <div class="section">
-        <h2>Resources</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
-        <a class="cta" href="/ux-process">Call to action</a>
-    </div>
+
+    {% for item in navMain %}
+        <div class="section">
+            <h2>{{ item.title }}</h2>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
+            <a class="cta" href="{{item.url}}">Call to action</a>
+        </div>
+    {% endfor %}
 
 </div>

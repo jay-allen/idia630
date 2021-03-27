@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/assets/styles/main.css">
-    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
   </head>
 
   <body>
@@ -17,8 +20,7 @@
                         <a href="/">VHA UX Guide</a>
                     </span>
                     <span class="search">
-                        <label for="search">Search</label>
-                        <input id="search" type="search">
+                        <a href="/search">Search</a>
                     </span>
                 </div>
                 <nav class="nav-main">
@@ -34,7 +36,7 @@
             {{ content | safe }}
         </main>
         <footer>
-            <div class="container">Looking for more information? Contact us</div>
+            <div class="container">Looking for more information? <a href="#">Contact us</a></div>
         </footer>
 </body>
 </html>

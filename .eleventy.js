@@ -14,7 +14,6 @@ module.exports = function( eleventyConfig ){
     eleventyConfig.addPassthroughCopy("src/assets/js");
     eleventyConfig.addPassthroughCopy("src/admin");
     eleventyConfig.addPassthroughCopy("src/web.config");
-    eleventyConfig.addPassthroughCopy({"node_modules/@fortawesome/fontawesome-free/svgs/solid/":"/assets/svg/"});
     
     
 

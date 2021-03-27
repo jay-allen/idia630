@@ -55,7 +55,7 @@
         "phase": "discovery"
     },
     {
-        "title": "Roadmap",
+        "title": "Roadmap Building",
         "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!",
         "phase": "discovery"
     },
@@ -64,15 +64,319 @@
         "phase": "research"
     },
     {
+        "title": "Contextual Inquiry",
+        "phase": "research"
+    },
+    {
+        "title": "Competitive Research",
+        "phase": "research"
+    },
+    {
+        "title": "Card Sorting",
+        "phase": "research"
+    },
+    {
+        "title": "Diary Study",
+        "phase": "research"
+    },
+    {
+        "title": "Ethnographic Study",
+        "phase": "research"
+    },
+    {
+        "title": "Focus Group",
+        "phase": "research"
+    },
+    {
+        "title": "Literature Consultation",
+        "phase": "research"
+    },
+    {
+        "title": "Observation",
+        "phase": "research"
+    },
+    {
+        "title": "Problem Statement",
+        "phase": "research"
+    },
+    {
+        "title": "Contextual Research",
+        "phase": "research"
+    },
+    {
+        "title": "User Experience Assessment",
+        "phase": "research"
+    },
+    {
+        "title": "Content Analysis",
+        "phase": "research"
+    },
+    {
+        "title": "Field Study",
+        "phase": "research"
+    },
+    {
+        "title": "Interoperability Assessment",
+        "phase": "research"
+    },
+    {
+        "title": "Listening Session",
+        "phase": "research"
+    },
+    {
+        "title": "Time-Motion Study",
+        "phase": "research"
+    },
+    {
         "title": "Persona Development",
         "phase": "analysis"
     },
+    {
+        "title": "User Stories",
+        "phase": "analysis"
+    },
+    {
+        "title": "Storyboarding",
+        "phase": "analysis"
+    },
+    {
+        "title": "Gap Analysis",
+        "phase": "analysis"
+    },
+    {
+        "title": "Heuristic Evaluation",
+        "phase": "analysis"
+    },
+    {
+        "title": "Heuristic Evaluation - Participatory",
+        "phase": "analysis"
+    },
+    {
+        "title": "Applied Cognitive Task Analysis (ACTA)",
+        "phase": "analysis"
+    },
+    {
+        "title": "Journey Mapping",
+        "phase": "analysis"
+    },
+    {
+        "title": "Empathy Map (Building)",
+        "phase": "analysis"
+    },
+    {
+        "title": "Affinity Diagramming",
+        "phase": "analysis"
+    },
+    {
+        "title": "Causal Loop Diagram (Creation)",
+        "phase": "analysis"
+    },
+    {
+        "title": "Clustering (Idea Clustering)",
+        "phase": "analysis"
+    },
+    {
+        "title": "Comparative Analysis",
+        "phase": "analysis"
+    },
+    {
+        "title": "Customer Needs Assessment",
+        "phase": "analysis"
+    },
+    {
+        "title": "Dataflow Mapping",
+        "phase": "analysis"
+    },
+    {
+        "title": "Fishbone Analysis",
+        "phase": "analysis"
+    },
+    {
+        "title": "Healthcare Failure MOde and Effect Analysis (HFMEA)",
+        "phase": "analysis"
+    },
+    {
+        "title": "Identify Capabilities and Resources Needed",
+        "phase": "analysis"
+    },
+    {
+        "title": "Patient Safety Assessment Tool (PSAT)",
+        "phase": "analysis"
+    },
+    {
+        "title": "Scenarios of Use Creation",
+        "phase": "analysis"
+    },
+    {
+        "title": "Task Analysis",
+        "phase": "analysis"
+    },
+    {
+        "title": "Task Flow Analysis",
+        "phase": "analysis"
+    },
+    {
+        "title": "Taskflow Mapping",
+        "phase": "analysis"
+    },
+    {
+        "title": "Work Analysis",
+        "phase": "analysis"
+    },
+    {
+        "title": "Workflow Analysis",
+        "phase": "analysis"
+    },    
     {
         "title": "Sketching",
         "phase": "design"
     },
     {
+        "title": "Wireframes",
+        "phase": "design"
+    },
+    {
+        "title": "Prototypes",
+        "phase": "design"
+    },
+    {
+        "title": "Design Specifications",
+        "phase": "design"
+    },
+    {
+        "title": "Design Systems",
+        "phase": "design"
+    },
+    {
+        "title": "Clinical Workflow Modeling",
+        "phase": "design"
+    },
+    {
+        "title": "Conceptual Model Building",
+        "phase": "design"
+    },
+    {
+        "title": "Design Hypothesis (Hypothesizing)",
+        "phase": "design"
+    },
+    {
+        "title": "Design Principles (Creating)",
+        "phase": "design"
+    },
+    {
+        "title": "Screen Consultation",
+        "phase": "design"
+    },
+    {
+        "title": "UI Design Audit",
+        "phase": "design"
+    },
+    {
+        "title": "Visual Modeling",
+        "phase": "design"
+    },
+    {
+        "title": "Brainstorming",
+        "phase": "design"
+    },
+    {
+        "title": "Final Concept (Visualization)",
+        "phase": "design"
+    },
+    {
+        "title": "Ideation (Group)",
+        "phase": "design"
+    },
+    {
+        "title": "Mental Modeling",
+        "phase": "design"
+    },
+    {
+        "title": "Prioritize Customer Needs",
+        "phase": "design"
+    },
+    {
+        "title": "Process Flow Maps",
+        "phase": "design"
+    },
+    {
+        "title": "Styles Tiles (Creating)",
+        "phase": "design"
+    },
+    {
+        "title": "Simulations",
+        "phase": "design"
+    },
+    {
+        "title": "Site Mapping",
+        "phase": "design"
+    },
+    {
         "title": "In-house Testing",
+        "phase": "validation"
+    },
+    {
+        "title": "User Testing",
+        "phase": "validation"
+    },
+    {
+        "title": "Cognitive Walkthrough",
+        "phase": "validation"
+    },
+    {
+        "title": "Surveys",
+        "phase": "validation"
+    },
+    {
+        "title": "Usage Analytics",
+        "phase": "validation"
+    },
+    {
+        "title": "GOMS",
+        "phase": "validation"
+    },
+    {
+        "title": "Keystroke Level Modeling (KLM)",
+        "phase": "validation"
+    },
+    {
+        "title": "Rapid Usability Evaluation (RUE)",
+        "phase": "validation"
+    },
+    {
+        "title": "User Testing (Virtual)",
+        "phase": "validation"
+    },
+    {
+        "title": "Usability Review - Unmoderated",
+        "phase": "validation"
+    },
+    {
+        "title": "Usability Test - Formative",
+        "phase": "validation"
+    },
+    {
+        "title": "Usability Test - Summative",
+        "phase": "validation"
+    },
+    {
+        "title": "Usability Walkthrough",
+        "phase": "validation"
+    },
+    {
+        "title": "User Survey - Questionnaire",
+        "phase": "validation"
+    },
+    {
+        "title": "Clinical Limites of Use Tools",
+        "phase": "validation"
+    },
+    {
+        "title": "User Feedback",
+        "phase": "validation"
+    },
+    {
+        "title": "User Satisfaction Assessment (e.g. SUS, ISUQ)",
         "phase": "validation"
     }
 ]

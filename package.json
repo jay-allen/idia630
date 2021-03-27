@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prestart": "rm -rf ./dist",
     "start": "npm run watch:eleventy & npm run watch:styles",
     "build": "eleventy & npm run styles",
     "test": "echo \"Error: no test specified\" && exit 1",

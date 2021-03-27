@@ -23,9 +23,9 @@
                 </div>
                 <nav class="nav-main">
                     <ul>
-                        <li><a href="/ux-process">Introduction to UX Concepts</a></li>
-                        <li><a href="/ux-process">UX Process</a></li>
-                        <li><a href="/ux-process">Resources</a></li>
+                        {% for item in navMain %}
+                            <li><a href="{{item.url}}">{{ item.title }}</a></li>
+                        {% endfor %}
                     </ul>
                 </nav>
             </div>

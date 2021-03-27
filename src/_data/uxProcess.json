@@ -1,0 +1,58 @@
+{
+    "discovery": [
+        {
+            "title": "Interview - Stakeholder",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        },
+        {
+            "title": "Interview - User",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        },
+        {
+            "title": "Value Proposition Mapping",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        },
+        {
+            "title": "Concept Sketching",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        },
+        {
+            "title": "Root Cause Analysis",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        },
+        {
+            "title": "Define the Ambition Level",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        },
+        {
+            "title": "Depict the Solution",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        },
+        {
+            "title": "Determine Scope and Metrics",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        },
+        {
+            "title": "Elevator Pitch (Summarizing)",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        },
+        {
+            "title": "Pitch Building",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        },
+        {
+            "title": "Project Plan Creation",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        },
+        {
+            "title": "Roadmap",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        }
+    ],
+    "research": [
+        {
+            "title": "research 1",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!"
+        }
+    ]
+}

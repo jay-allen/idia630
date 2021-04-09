@@ -7,4 +7,12 @@
     display: inline-block;
     margin-top: 1rem;
     text-decoration: none;
+
+    &:hover {
+        transform: translateY(-1px);
+    }
+
+    &:active {
+        transform: scale(0.99);
+    }
 }

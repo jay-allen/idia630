@@ -1,0 +1,18 @@
+@use '../variables' as *;
+
+.badge {
+    border: 2px solid $grey-2;
+    padding: .25rem .5rem;
+    display: block;
+
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        text-decoration: underline;
+    }
+    
+    &:active {
+        transform: scale(0.99);
+    }
+}

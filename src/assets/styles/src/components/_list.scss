@@ -1,0 +1,10 @@
+@use '../variables' as *;
+
+.list--inline {
+
+    padding: 0;
+
+    li {
+        display: inline-block;
+    }
+}

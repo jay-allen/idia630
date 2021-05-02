@@ -8,3 +8,12 @@
         display: inline-block;
     }
 }
+
+.list--full-width {
+    display: block;
+}
+
+.list--bare {
+    list-style: none;
+    padding-left: 0;
+}

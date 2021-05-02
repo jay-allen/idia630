@@ -16,3 +16,21 @@
         transform: scale(0.99);
     }
 }
+
+.cta--full {
+    display: block;
+}
+
+.cta--highlight {
+    color: $text-dark-1;
+    background-color: $grey-1;
+    border: 1px solid $color-primary-navy;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background-color: $color-primary-navy;
+        color: $text-light-1;
+    }
+}

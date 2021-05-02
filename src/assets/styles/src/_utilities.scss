@@ -18,7 +18,9 @@
 }
 
 .flow > * + * {
+    --flow-space: 1rem;
     margin-top: 1.2em;
+    margin-block-start: var(--flow-space, 1rem);
 }
 
 /*******************************************************************************\

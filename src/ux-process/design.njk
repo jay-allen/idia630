@@ -1,14 +1,8 @@
 ---
 title: Design Phase
-layout: layouts/base.njk
+layout: layouts/single-banner.njk
 phase: "design"
 ---
-
-<div class="masthead">
-    <div class="container">
-        <h1>Design Phase</h1>
-    </div>
-</div>
 
 <div class="container">
 
@@ -16,7 +10,7 @@ phase: "design"
 
     {% for item in uxProcess %}
         {% if item.phase == phase %}
-                <div class="section">
+            <div class="section flow">
                 <h2>{{ item.title }}</h2>
                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis
                     amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>

@@ -1,9 +1,10 @@
 @use '../variables' as *;
 
 .badge {
-    border: 2px solid $grey-1;
+    border: 2px solid $grey-2;
     padding: .25rem .5rem;
     display: block;
+    font-size: 1rem;
 
     text-decoration: none;
     color: inherit;
@@ -11,8 +12,8 @@
     border-radius: 100px;
 
     &:hover {
-        background-color: $grey-1;
-        border-color: $grey-2;
+        background-color: $grey-2;
+        border-color: $grey-3;
     }
     
     &:active {

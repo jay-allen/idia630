@@ -4,7 +4,7 @@
 .container {
     max-width: 1260px;
     margin: auto;
-    padding: 0 1.2em;
+    padding: 1rem 1.2em;
     @media (min-width: 800px) {
         padding: 1.5rem;
     }
@@ -12,8 +12,12 @@
 
 .section {
     padding: 1.5em 0;
+    margin-block-end: 1rem;
+    background-color: $grey-1;
+    padding-inline: 1rem;
+
     @media (min-width: 800px) {
-        padding: 2em 0;
+        padding: 2em 2rem;
     }
 }
 

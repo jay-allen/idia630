@@ -9,12 +9,27 @@ label {
     font-weight: bold;
 }
 
+input + label {
+    display: inline-block;
+}
+
 select,
 input {
     min-height: 48px;
     padding: 3px;
+    padding-left: .5rem;
 }
 
 select {
-    min-width: 15ch;
+    min-width: 25ch;
+}
+
+select + select {
+    margin-left: .5rem;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    
 }

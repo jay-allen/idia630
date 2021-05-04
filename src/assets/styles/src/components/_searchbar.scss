@@ -1,0 +1,10 @@
+@use '../variables' as *;
+
+.searchbar {
+    background-color: $grey-1;
+    padding-block: 1rem;
+}
+
+.searchbar > .container {
+    padding: 1rem 1.5rem;
+}

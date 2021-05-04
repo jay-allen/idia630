@@ -1,11 +1,21 @@
 @use '../variables' as *;
 
-
 .associated-block {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    @media (min-width: 800px) {
+        flex-direction: row;
+    }
 }
 
 .associated-block > * {
-    margin: 0;
+    margin: initial;
+    margin-bottom: 1rem;
+
+    @media (min-width: 800px) {
+        margin: 0;
+    }
 }

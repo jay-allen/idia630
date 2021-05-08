@@ -1,34 +1,55 @@
 ---
 title: Search
 layout: layouts/single.njk
+hideHeadingMain: true
 ---
 
-<div class="container search">
-    <form class="search__form js-search">
-        <input type="text" name="search" id="search" aria-label="Search" placeholder="What do you want to learn about?">
-        <button type="submit">
-            <i class="fas fa-search icon" aria-hidden="true"></i> 
-            <span>Search</span>
-        </button>
-    </form>
-</div>
-
-<div class="searchbar">
-    <div class="container">
-        <div>Showing 3 results for "study"</div>
+<form>
+    <div class="container search">
+        <div class="search__form js-search">
+            <input type="text" name="search" id="search" aria-label="Search" placeholder="What do you want to learn about?">
+            <button type="submit">
+                <i class="fas fa-search icon" aria-hidden="true"></i>
+                <span>Search</span>
+            </button>
+        </div>
     </div>
-    <div class="container">
-        <select aria-label="Setup Time">
-            <option value="setup">Setup Time</option>
-        </select>
-        <select aria-label="Length">
-            <option value="length">Length</option>
-        </select>
-        <select aria-label="Process">
-            <option value="process">Process</option>
-        </select>
+    
+    <div class="searchbar">
+        <div class="container">
+            <!-- <div class="js-search-message">Showing 3 results for "study"</div> -->
+            <div class="js-search-message"></div>
+        </div>
+        <div class="container">
+            <select name="process-length" aria-label="Process Length">
+                <option value="default">Average Process Length</option>
+                <option value="1">1 Days</option>
+                <option value="2">2 Days</option>
+                <option value="3">3 Days</option>
+                <option value="4">4 Days</option>
+                <option value="5">5 Days</option>
+                <option value="6">6 Days</option>
+                <option value="7">7 Days</option>
+                <option value="8">8 Days</option>
+                <option value="9">9 Days</option>
+            </select>
+            <select name="setup-time" aria-label="Setup Time">
+                <option value="default">Setup Time</option>
+                <option value="short">Short</option>
+                <option value="medium">Medium</option>
+                <option value="long">Long</option>
+            </select>
+            <select name="ux-process" aria-label="UX Process">
+                <option value="process">UX Process</option>
+                <option value="planning-discovery">Planning & Discovery</option>
+                <option value="research">Research</option>
+                <option value="analysis">Analysis</option>
+                <option value="design">Design</option>
+                <option value="validation">Validation</option>
+            </select>
+        </div>
     </div>
-</div>
+</form>
 
 <div class="container search-results"></div>
 

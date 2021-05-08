@@ -1,8 +1,6 @@
 
 # IDIA 630 - Information Architecture - VHA
 
-Site located at 
-
 This website was created as part of a group project for a graduate class in the [Interaction Design and Information Architecture](https://www.ubalt.edu/cas/graduate-programs-and-certificates/degree-programs/masters-interaction-design-and-information-architecture) program at the [University of Baltimore](https://www.ubalt.edu/index.cfm).
 
 The site was used to provide visuals for information architecture recommendations that were shared with the [Veterans Health Administration](https://www.va.gov/health/).

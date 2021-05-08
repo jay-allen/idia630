@@ -1,0 +1,8 @@
+<ul class="list__link-block list--bare">
+    {% for item in linkBlockItems %}                    
+        <li>
+            <a href="{{item.phase}}/{{ item.title | slugify }}">{{ item.title }}</a>
+            <i class="fas fa-arrow-circle-right" aria-hidden="true"></i>
+        </li>
+    {% endfor %}
+</ul>

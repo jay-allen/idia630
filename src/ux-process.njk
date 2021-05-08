@@ -11,34 +11,96 @@ layout: layouts/base.njk
 
 <div class="container">
     
-    <div class="section flow">
-        <h2>Planning</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
-        <a class="cta" href="/ux-process/planning">Call to action</a>
-    </div>
+    <div class="section flag">
+        <div class="flow">
+            <h2>Planning & Discovery</h2>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
+            <a class="cta" href="/ux-process/planning">Call to action</a>
+        </div>
+        <div>
+            <h3>Includes</h3>
+            {% set linkBlockItems = [] %}
+            {% for item in uxProcess %}
+                {% if item.phase == "planning" and item.topMethod %}
+                    {% set linkBlockItems = (linkBlockItems.push(item), linkBlockItems) %}
+                {% endif %}
+            {% endfor %}            
+            {% include "component/link-block-item.njk" %}
+        </div>
+    </div>    
 
-    <div class="section flow">
-        <h2>Research</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
-        <a class="cta" href="/ux-process/research">Call to action</a>
+    <div class="section flag">
+        <div class="flow">
+            <h2>Research</h2>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
+            <a class="cta" href="/ux-process/research">Call to action</a>
+        </div>
+        <div>
+            <h3>Includes</h3>
+            {% set linkBlockItems = [] %}
+            {% for item in uxProcess %}
+                {% if item.phase == "research" and item.topMethod %}
+                    {% set linkBlockItems = (linkBlockItems.push(item), linkBlockItems) %}
+                {% endif %}
+            {% endfor %}            
+            {% include "component/link-block-item.njk" %}            
+        </div>
     </div>
     
-    <div class="section flow">
-        <h2>Analysis</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
-        <a class="cta" href="/ux-process/analysis">Call to action</a>
+    <div class="section flag">
+        <div class="flow">
+            <h2>Analysis</h2>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
+            <a class="cta" href="/ux-process/analysis">Call to action</a>
+        </div>
+        <div>
+            <h3>Includes</h3>
+            {% set linkBlockItems = [] %}
+            {% for item in uxProcess %}
+                {% if item.phase == "analysis" and item.topMethod %}
+                    {% set linkBlockItems = (linkBlockItems.push(item), linkBlockItems) %}
+                {% endif %}
+            {% endfor %}            
+            {% include "component/link-block-item.njk" %}            
+        </div>
     </div>
 
-    <div class="section flow">
-        <h2>Design</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
-        <a class="cta" href="/ux-process/design">Call to action</a>
+    <div class="section flag">
+        <div class="flow">
+            <h2>Design</h2>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
+            <a class="cta" href="/ux-process/design">Call to action</a>
+        </div>
+        <div>
+            <h3>Includes</h3>
+            {% set linkBlockItems = [] %}
+            {% for item in uxProcess %}
+                {% if item.phase == "design" and item.topMethod %}
+                    {% set linkBlockItems = (linkBlockItems.push(item), linkBlockItems) %}
+                {% endif %}
+            {% endfor %}            
+            {% include "component/link-block-item.njk" %}
+
+        </div>
     </div>
 
-    <div class="section flow">
-        <h2>Validation</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
-        <a class="cta" href="/ux-process/validation">Call to action</a>
+    <div class="section flag">
+        <div class="flow">
+            <h2>Validation</h2>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
+            <a class="cta" href="/ux-process/validation">Call to action</a>
+        </div>
+        <div>
+            <h3>Includes</h3>
+            {% set linkBlockItems = [] %}
+            {% for item in uxProcess %}
+                {% if item.phase == "validation" and item.topMethod %}
+                    {% set linkBlockItems = (linkBlockItems.push(item), linkBlockItems) %}
+                {% endif %}
+            {% endfor %}            
+            {% include "component/link-block-item.njk" %}
+
+        </div>
     </div>
 
 </div>

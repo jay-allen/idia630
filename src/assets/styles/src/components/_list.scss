@@ -17,3 +17,39 @@
     list-style: none;
     padding-left: 0;
 }
+
+.list__link-block {
+
+    li {
+        position: relative;
+        background-color: $grey-0;
+    }
+
+    a {
+        color: $text-dark-1;
+        border: 1px solid $grey-2;
+        min-height: 64px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        padding: .75rem;
+       
+        &:hover {
+            background-color: $color-primary-navy;
+            color: $text-light-1;
+
+            + i {
+                display: block;
+            }
+        }
+    }
+
+    i {
+        display: none;
+        position: absolute;
+        right: .8rem;
+        top: calc(50% - .8rem);
+        font-size: 1.6rem;
+        color: $text-light-1;
+    }
+}

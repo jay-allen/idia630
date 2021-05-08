@@ -10,6 +10,11 @@
         "icon": "fa-project-diagram"
     },
     {
+        "title": "Find a Method",
+        "url": "/find-method",
+        "icon": "fa-compass"
+    },
+    {
         "title": "Resources",
         "url": "/resources",
         "icon": "fa-list-alt"

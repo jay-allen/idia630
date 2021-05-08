@@ -1,16 +1,16 @@
 ---
-title: Details
+title: Resources
 layout: layouts/base.njk
 pagination:
-  data: uxProcess
+  data: resources
   size: 1
   alias: item
-permalink: /ux-process/{{ item.phase | slugify }}/{{ item.title | slugify }}/index.html
+permalink: /resources/{{ item.title | slugify }}/index.html
 ---
 
 <div class="masthead">
     <div class="container">
-        <div style="text-transform: capitalize;">{{ item.phase }} Phase</div>
+        <h1>{{ item.title }}</h1>
     </div>
 </div>
 
@@ -19,7 +19,6 @@ permalink: /ux-process/{{ item.phase | slugify }}/{{ item.title | slugify }}/ind
     <a class="back" href="../">Back to {{ item.phase }}</a>
 
     <div class="flow">
-        <h2>{{ item.title }}</h2>
         <div>Vanilla muffin jelly vanilla cake ipsum. Cake cake sweet biscuit sweet cake. Sugar orange donut muffin jelly cream. Candy lollipop pastry sweet candy tiramisu.</div>
         <div>Sugar apple dolor candy cookie donut muffin sweet apple lollipop. Sugar candy sweet cream orange cream cookie dolor pastry apple. Cookie tiramisu dolor dolor vanilla ipsum apple dolor tiramisu vanilla. Croissant donut sugar sugar vanilla vanilla ipsum jelly cake cookie.</div>
         <img src="https://via.placeholder.com/600x400?text=Image" alt="" srcset="">
@@ -28,6 +27,7 @@ permalink: /ux-process/{{ item.phase | slugify }}/{{ item.title | slugify }}/ind
         <div>Cookie muffin vanilla sugar biscuit cookie croissant orange cookie croissant sprinkles sweet jelly apple marzipan apple biscuit donut sprinkles vanilla. Lollipop muffin sprinkles dolor croissant cream pastry jelly pastry cream tiramisu vanilla croissant muffin pastry cookie apple tiramisu sprinkles lollipop. Pastry biscuit sugar pastry cookie sweet sprinkles ipsum croissant sprinkles candy orange croissant donut sugar sugar ipsum jelly marzipan vanilla. Tiramisu ipsum donut lollipop pastry ipsum sweet orange jelly croissant jelly dolor pastry muffin candy sweet sweet muffin sprinkles cake.</div>
     </div>
 </div>
+
 <div class="container">
     <h2>Related methods</h2>
     <div class="associated-block">

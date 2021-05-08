@@ -8,6 +8,7 @@ fetch('/search.json').then(function(response) {
     return response.json();
 }).then(function(response) {
     searchIndex = response.search;
+    setupDefaultPage(searchIndex);
 });
 
 
@@ -70,9 +71,9 @@ function getListItem(item) {
             <h2>${item.title}</h2>
             <div>
                 <ul class="list--inline">
-                    <li><a href="/${prefix}/${phase}" class="badge badge--info">${item.phase}</a></li>
-                    <li><a href="#" class="badge badge--info">${item.processLength} days</a></li>
-                    <li><a href="#" class="badge badge--info">${item.setupTime} Setup</a></li>
+                    <li><a href="/${prefix}/${phase}" class="badge badge--info js-phase">${item.phase}</a></li>
+                    <li><a href="#" class="badge badge--info js-process-length">${item.processLength} days</a></li>
+                    <li><a href="#" class="badge badge--info js-setup-time">${item.setupTime} Setup</a></li>
                 </ul>
             </div>
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis
@@ -107,5 +108,31 @@ function updateSearchMessage(count, queryValue) {
     const messageElem = document.querySelector('.js-search-message');
     const message = `Showing ${count} results for "${queryValue}"`;
     messageElem.innerHTML = message;
+}
+
+function setupDefaultPage(searchIndex) {
+
+    // Get top 2 for each phase
+    let topMethods = [];
+    for (var item in searchIndex) {
+        if (searchIndex[item].topMethod === "true") {
+            topMethods.push(searchIndex[item]);
+        }
+    }
+
+    let results = [];
+    let phaseList = [];
+    for (var item in topMethods) {
+        const method = topMethods[item];
+        if (phaseList.indexOf(method.phase) === -1) {
+            phaseList.push(method.phase);
+            results.push(method);
+        }
+    }
+
+
+    displayResults(results);
+
+
 }
 

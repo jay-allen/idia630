@@ -7,6 +7,7 @@ permalink: search.json
     "title" : "{{ item.title }}",
     "link" : "{{ item.title | slugify }}",
     "phase" : "{{ item.phase }}",
+    "topMethod" : "{{ item.topMethod }}",
     "processLength": "{{ [1,2,3,4,5,6,7,8,9] | random }}",
     "setupTime": "{{ ["Short","Medium","Long"] | random }}",    
     "type" : "ux-process"

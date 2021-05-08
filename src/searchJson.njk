@@ -1,0 +1,13 @@
+---
+permalink: search.json
+---
+{"search" : [
+{%- for item in uxProcess -%}
+  {
+    "title" : "{{ item.title }}",
+    "link" : "{{ item.title | slugify }}",
+    "phase" : "{{ item.phase }}",    
+    "type" : "ux-process"
+  }{% if not loop.last %},{% else %}{%- endif -%}
+{%- endfor -%}
+]}

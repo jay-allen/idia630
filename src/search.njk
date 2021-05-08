@@ -3,39 +3,33 @@ title: Search
 layout: layouts/single.njk
 ---
 
+<div class="container search">
+    <form class="search__form js-search">
+        <input type="text" name="search" id="search" aria-label="Search" placeholder="What do you want to learn about?">
+        <button type="submit">
+            <i class="fas fa-search icon" aria-hidden="true"></i> 
+            <span>Search</span>
+        </button>
+    </form>
+</div>
+
 <div class="searchbar">
     <div class="container">
         <div>Showing 3 results for "study"</div>
     </div>
     <div class="container">
-        <select>
+        <select aria-label="Setup Time">
             <option value="setup">Setup Time</option>
         </select>
-        <select>
+        <select aria-label="Length">
             <option value="length">Length</option>
         </select>
-        <select>
+        <select aria-label="Process">
             <option value="process">Process</option>
         </select>
     </div>
 </div>
 
-<div class="container">
-    
-    <div class="section flow">
-        <h2>Title</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis
-            amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
-    </div>
-    <div class="section flow">
-        <h2>Title</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis
-            amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
-    </div>
-    <div class="section flow">
-        <h2>Title</h2>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, officia tenetur, ipsam dolor veniam accusamus similique odio iusto perferendis
-            amet ad magni? Nemo numquam laborum, nostrum praesentium quia at modi!</div>
-    </div>
+<div class="container search-results"></div>
 
-</div>
+<script src="/assets/js/search.js"></script> 

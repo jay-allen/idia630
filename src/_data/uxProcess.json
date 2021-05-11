@@ -130,6 +130,26 @@
         "topMethod": true
     },
     {
+        "title": "Task Analysis",
+        "phase": "analysis",
+        "topMethod": false
+    },
+    {
+        "title": "Task Flow Analysis",
+        "phase": "analysis",
+        "topMethod": false
+    },
+    {
+        "title": "Taskflow mapping",
+        "phase": "analysis",
+        "topMethod": false
+    },
+    {
+        "title": "Work Analysis",
+        "phase": "analysis",
+        "topMethod": false
+    },
+    {
         "title": "Gap Analysis",
         "phase": "analysis",
         "topMethod": false
@@ -193,27 +213,7 @@
         "title": "User Scenarios",
         "phase": "analysis",
         "topMethod": false
-    },
-    {
-        "title": "Task Analysis",
-        "phase": "analysis",
-        "topMethod": false
-    },
-    {
-        "title": "Task Flow Analysis",
-        "phase": "analysis",
-        "topMethod": false
-    },
-    {
-        "title": "Taskflow mapping",
-        "phase": "analysis",
-        "topMethod": false
-    },
-    {
-        "title": "Work Analysis",
-        "phase": "analysis",
-        "topMethod": false
-    },
+    },    
     {
         "title": "Define the Ambition Level",
         "phase": "analysis",
